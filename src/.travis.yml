@@ -1,8 +1,0 @@
-language: go
-
-go:
-  - tip # The latest version of Go.
-matrix:
-  allow_failures:
-    - go: tip
-  fast_finish: true
